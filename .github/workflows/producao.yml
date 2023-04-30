@@ -16,7 +16,7 @@ jobs:
 
 
 
-  jobl:
+  job1:
     name: CI - Build e criação do artefato
     runs-on: ubuntu-latest
     steps:
