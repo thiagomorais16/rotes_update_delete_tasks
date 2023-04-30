@@ -39,7 +39,7 @@ jobs:
         run: ls
 
       - name: Criando artefato ZIP do código buildado
-        run: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: artefato
           retention-days: 1
