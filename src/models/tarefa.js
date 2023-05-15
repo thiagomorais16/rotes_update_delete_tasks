@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 
 const esquema = new mongoose.Schema(
     {
-        posicao: { 
+        posicao: {
             type: Number,
             required: 'é obrigatório!',
         },
-        título: { 
+        titulo: {
             type: String,
             required: 'é obrigatório!',
         },
@@ -27,7 +27,7 @@ const esquema = new mongoose.Schema(
             ref: 'Usuario',
             required: 'é obrigatório!',
         },
-        
+
     },
     {
         timestamps: true
